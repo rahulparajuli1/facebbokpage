@@ -269,6 +269,7 @@ small {
 .post-1-captionimg {
   display: flex;
   flex-direction: column;
+  gap: 0px;
 }
 
 .caption {
@@ -373,4 +374,18 @@ small {
 }
 
 
+.like{
+  background-color: #eaecef;
+  height: 30px;
+  padding: 10px;
+ display: flex;
+ margin-top: 0px;
+ justify-content: space-around;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+}
 
+.like-icon:hover{
+    color: #2144ff;
+    transform: scale(1.2);
+}
