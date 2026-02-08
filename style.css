@@ -386,6 +386,9 @@ small {
 }
 
 .like-icon:hover{
-    color: #2144ff;
+    /* color: #2144ff; */
     transform: scale(1.2);
+}
+.like-icon:active{
+  color: #2144ff;
 }
