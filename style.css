@@ -12,7 +12,7 @@
   position: sticky;
   top: 0;
   height: 70px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .icon-search {
@@ -298,6 +298,7 @@ small {
 .story-wrapper{
   display:flex;
   gap:22px;
+  margin-top: 10px;
 }
 
 .story-card{
