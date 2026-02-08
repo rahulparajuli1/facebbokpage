@@ -15,6 +15,16 @@
   z-index: 4;
 }
 
+.big-icon-2{
+  font-size: 40px;
+  color: rgba(6, 6, 114, 0.844);
+}
+.big-icon-2:hover{
+  color: #000000;
+  transform: scale(1.2);
+  text-decoration: underline;
+}
+
 .icon-search {
   display: flex;
   gap: 30px;
@@ -45,8 +55,10 @@
   font-size: 30px;
   color: blue;
   border-radius: 80px;
-
-  /* box-shadow: 2px 2px 1px 0px black, 0px -1px 0px 0px #8d8989; */
+}
+.button-icon:hover{
+  transform: scale(1.2);
+  color: #000000;
 }
 
 .profile-img {
@@ -315,13 +327,15 @@ small {
   object-fit:cover;
 }
 
+
 /* gradient overlay */
 .story-card::after{
   content:"";
   position:absolute;
   inset:0;
-  background:linear-gradient(to top, rgba(255,255,255,.95), rgba(255,255,255,0) 55%);
+  background:linear-gradient(to top, rgba(156, 152, 152, 0.95), rgba(255,255,255,0) 55%);
 }
+
 
 /* text */
 .story-text{
