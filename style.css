@@ -7,7 +7,7 @@
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.066);
-  /* position-anchor: initial; */
+ 
   background-color: white;
   position: sticky;
   top: 0;
@@ -15,14 +15,17 @@
   z-index: 4;
 }
 
+
+
 .big-icon-2 {
   font-size: 40px;
   color: rgba(6, 6, 114, 0.844);
 }
 .big-icon-2:hover {
-  color: #000000;
+  color: #575656;
   transform: scale(1.2);
-  text-decoration: underline;
+  
+  
 }
 
 .icon-search {
@@ -190,7 +193,7 @@ hr {
 }
 
 .chat-container {
-  /* width:800px; */
+  
   background: #a4a8ae;
   padding: 12px 16px;
   border-radius: 14px;
@@ -397,4 +400,9 @@ small {
 }
 html{
   scroll-behavior: smooth;
+}
+
+.like-text:hover{
+  background-color: #a3a5a9b6;
+
 }
