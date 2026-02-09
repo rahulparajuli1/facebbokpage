@@ -249,14 +249,14 @@ hr {
   background: #333840;
 }
 
-.post-1 {
-}
+
 
 .post-1-img {
   width: 50px;
   height: 50px;
   margin-left: 5px;
   border-radius: 50%;
+  border: 3px solid blue;
 }
 small {
   color: #737880b2;
@@ -395,7 +395,7 @@ small {
 
 .blue-tick {
   width: 20px;
-  align-items: center;
+  
   border-radius: 50%;
 }
 html{
