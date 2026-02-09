@@ -276,7 +276,7 @@ small {
   margin-left: 5px;
 }
 .post-container {
-  background-color: rgba(240, 248, 255, 0.262);
+  background-color: #eaecef;
   display: flex;
   flex-direction: column;
   padding-top: 5px;
@@ -391,4 +391,13 @@ small {
 }
 .like-icon:active{
   color: #2144ff;
+}
+
+.blue-tick{
+  
+  width: 20px;
+  align-items: center;
+  border-radius: 50%;
+ 
+
 }
