@@ -475,18 +475,19 @@ span {
   border: 3px solid white;
 }
 
-.chat {
-  font-size: 25px;
-  color: rgb(139, 134, 134);
-  border: 3px solid black;
-  border-radius: 5px;
-  align-items: center;
+
+.chatwith img{
+  height: 70px;
+  width: 70px;
 }
-.chatwith {
-  position: absolute;
-  top: 1610px;
-  right: 15px;
+.chatwith{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 100%;
 }
-.chatwith:hover {
-  background-color: #6d6e75;
+.chatwith:hover{
+  transform: scale(1.2);
+ 
 }
