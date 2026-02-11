@@ -77,7 +77,7 @@ div {
 .list {
   list-style-type: none;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 /* style for the left side */
