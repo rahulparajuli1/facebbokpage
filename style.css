@@ -53,10 +53,11 @@
 
 .button-icon {
   font-size: 25px;
-  color: white;
+  color: rgb(1, 1, 1);
   border-radius: 100%;
-  border: 2px solid #737880;
-  background-color: #828787;
+  box-shadow:
+    1px 0px 2px 2px #e7e7e7,
+    2px 2px 2px 2px #f9f9f9;
   align-items: center;
 }
 .button-icon:hover {
@@ -293,9 +294,9 @@ small {
   box-sizing: content-box;
   border-radius: 5px;
   width: 600px;
-  border-bottom-left-radius:15px ;
+  border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
- margin: 5px 152px 5px 153px;
+  margin: 5px 152px 5px 153px;
 }
 
 .cont-img img {
@@ -474,3 +475,18 @@ span {
   border: 3px solid white;
 }
 
+.chat {
+  font-size: 25px;
+  color: rgb(139, 134, 134);
+  border: 3px solid black;
+  border-radius: 5px;
+  align-items: center;
+}
+.chatwith {
+  position: absolute;
+  top: 1610px;
+  right: 15px;
+}
+.chatwith:hover {
+  background-color: #6d6e75;
+}
