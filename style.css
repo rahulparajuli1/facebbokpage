@@ -475,19 +475,24 @@ span {
   border: 3px solid white;
 }
 
-
-.chatwith img{
+.chatwith img {
   height: 70px;
   width: 70px;
+  border-radius: 100%;
+  box-shadow:
+    1px 0px 2px 2px #ded4c7,
+    -2px -2px 2px 2px #999494;
 }
-.chatwith{
+.chatwith {
   position: fixed;
   bottom: 20px;
   right: 20px;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 100%;
 }
-.chatwith:hover{
-  transform: scale(1.2);
- 
+.chatwith img:hover {
+  transform: scale(1.1);
+  box-shadow:
+    -2px -2px 2px 2px #723b3b,
+    1px 0px 2px 2px #14100b;
 }
