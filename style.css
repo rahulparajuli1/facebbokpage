@@ -380,6 +380,10 @@ small {
   );
 }
 
+.profile-card:hover{
+  text-decoration: underline;
+}
+
 /* text */
 .story-text {
   position: absolute;
@@ -465,6 +469,9 @@ html {
 .big-icon-11 {
   font-size: 40px;
   color: rgba(6, 6, 114, 0.844);
+}
+.big-icon-11:hover{
+  transform: rotate(10deg);
 }
 .bottom {
   color: #828787;
