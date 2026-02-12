@@ -311,6 +311,7 @@ small {
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   
+  
 }
 
 .cont-img img {
@@ -440,12 +441,14 @@ small {
 .like {
   background-color: #ffffff;
   height: 30px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   display: flex;
   margin-top: 0px;
   justify-content: space-around;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  
 }
 
 .like-icon:hover {
@@ -464,7 +467,9 @@ small {
 html {
   scroll-behavior: smooth;
 }
-
+.like-text{
+  align-self: center;
+}
 .like-text:hover {
   background-color: #a3a5a9b6;
 }
