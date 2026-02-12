@@ -187,6 +187,7 @@ hr {
   width: 60%;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background: #eae8e8;
 }
 
@@ -218,6 +219,7 @@ hr {
   border-radius: 14px;
   display: flex;
   align-items: center;
+  width: 90%;
   margin: 5px 15px;
   gap: 12px;
 }
@@ -289,8 +291,8 @@ small {
   gap: 0px;
 }
 .post-1-captionimg img {
-  height: 500px;
-  width: 600px;
+  
+  width: 100%;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
 }
@@ -305,10 +307,10 @@ small {
   padding-top: 5px;
   box-sizing: content-box;
   border-radius: 5px;
-  width: 600px;
+  width: 60%;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  margin: 5px 152px 5px 153px;
+  
 }
 
 .cont-img img {
@@ -348,6 +350,7 @@ small {
 .story-wrapper {
   display: flex;
   gap: 22px;
+  width: 90%;
   margin: 10px 15px;
 }
 
